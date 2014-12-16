@@ -14,6 +14,7 @@
 		AF13225A1A40E69D003A7427 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF1322591A40E69D003A7427 /* Images.xcassets */; };
 		AF13225D1A40E69D003A7427 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AF13225B1A40E69D003A7427 /* LaunchScreen.xib */; };
 		AF1322691A40E69D003A7427 /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1322681A40E69D003A7427 /* GitTestTests.m */; };
+		AF1322741A40EA1C003A7427 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1322731A40EA1C003A7427 /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		AF1322621A40E69D003A7427 /* GitTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF1322671A40E69D003A7427 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AF1322681A40E69D003A7427 /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		AF1322721A40EA1C003A7427 /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		AF1322731A40EA1C003A7427 /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				AF1322591A40E69D003A7427 /* Images.xcassets */,
 				AF13225B1A40E69D003A7427 /* LaunchScreen.xib */,
 				AF13224C1A40E69D003A7427 /* Supporting Files */,
+				AF1322721A40EA1C003A7427 /* Test.h */,
+				AF1322731A40EA1C003A7427 /* Test.m */,
 			);
 			path = GitTest;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF1322551A40E69D003A7427 /* ViewController.m in Sources */,
+				AF1322741A40EA1C003A7427 /* Test.m in Sources */,
 				AF1322521A40E69D003A7427 /* AppDelegate.m in Sources */,
 				AF13224F1A40E69D003A7427 /* main.m in Sources */,
 			);
